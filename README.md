@@ -6,7 +6,7 @@ By Thierno Abdoul Rahimi Diallo rahimi.diallo@224tech.com
  
 ## What is included
 
-After unzipping `sliverStreet_assignment_by_rahimi` or cloning from the git repository ``
+After unzipping `sliverStreet_assignment_by_rahimi` or cloning from the git repository `https://github.com/tard916/sliverStreet_assignment_by_rahimi.git`
 
 `cd sliverStreet_assignment_by_rahimi`
 
