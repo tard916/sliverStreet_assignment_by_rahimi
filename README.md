@@ -48,6 +48,6 @@ in the sliverStreet_assignment_by_rahimi folder you will:
 3) Input SMS: `http://localhost:8080/sliverStreet_assignment_by_rahimi/api/sms/inputEmail.php` for this part i use postman to test the api and i passed the data to the body as json forma.
 `{
 	"sender": "rahimi.diallo@224tech.com",
-	"sms_content": "this is the first test for smsSummary."
+	"sms_content": "this is the first test for emailSummary."
 }`
 
