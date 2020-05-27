@@ -41,13 +41,16 @@ in the sliverStreet_assignment_by_rahimi folder you will:
 
 - EMAIL endPoint 
 
-1) List all messages: `http://localhost:8080/sliverStreet_assignment_by_rahimi/api/sms/emailSummary.php`.
+1) List all messages: `http://localhost:8080/sliverStreet_assignment_by_rahimi/api/email/emailSummary.php`.
 
-2) Consume SMS: `http://localhost:8080/sliverStreet_assignment_by_rahimi/api/sms/consumeEmail.php?id=5` need to pass the id.
+2) Consume SMS: `http://localhost:8080/sliverStreet_assignment_by_rahimi/api/email/consumeEmail.php?id=5` need to pass the id.
 
-3) Input SMS: `http://localhost:8080/sliverStreet_assignment_by_rahimi/api/sms/inputEmail.php` for this part i use postman to test the api and i passed the data to the body as json forma.
+3) Input SMS: `http://localhost:8080/sliverStreet_assignment_by_rahimi/api/email/inputEmail.php` for this part i use postman to test the api and i passed the data to the body as json forma.
 `{
 	"sender": "rahimi.diallo@224tech.com",
 	"sms_content": "this is the first test for emailSummary."
 }`
 
+## Adding Messages
+
+We can messages through the API `http://localhost:8080/sliverStreet_assignment_by_rahimi/addMessages.php`.
